@@ -1,0 +1,99 @@
+#
+#  ________                         _____ __________.___ 
+# /  _____/_____    _____   ____   /  _  \\______   \   |
+#/   \  ___\__  \  /     \_/ __ \ /  /_\  \|     ___/   |
+#\    \_\  \/ __ \|  Y Y  \  ___//    |    \    |   |   |
+# \______  (____  /__|_|  /\___  >____|__  /____|   |___|
+#        \/     \/      \/     \/        \/              
+#                                                         
+#                Developed By Upd4ting                   
+#                   Version: 1.0                     
+#                     game.yml
+
+# WARNING: This configuration file will set the default settings of game when you create them
+# with the command /game create
+# If bungee mode enabled, a default game will be created by default don't worry
+
+########## GENERAL SETTINGS ##############
+
+# Bungee mode enabled or not
+# /!\ WARNING !!! Bungee world must be named 'world' /!\
+bungeeMode: true
+
+# Prefix of the game
+prefix: 'MyGame'
+
+# The minimum of player to start the game
+minplayer: 4
+
+# The maximum of player in the game
+maxplayer: 24
+
+# The time to start the game
+timestart: 120
+
+# The time to start the game when full
+timestartfull: 10
+
+# The time to close the game when finished
+timeclose: 10
+
+# The permission to bypass the max amount of player
+bypasspermission: 'none'
+
+# Enable firework at the end of the game
+firework: true
+
+# Command that will be executed to restart the server if bungee mode enabled
+commandRestart: 'restart'
+
+# Enable or not the fact that players can rejoin after having left the game!
+# Time is in second !
+# Max is the maximum of time that a player can rejoin
+Rejoin:
+  enabled: true
+  time-max: 60
+  max: 1
+
+  # Enable or not the fact that players can join the game in spectator
+# when the game is started
+SpectatorJoin:
+  enabled: true
+  permission: 'none'
+
+# Active or not Spectator Mode and configure his permission
+# Max distance is the distance max that they can get far away from player!
+# If you enable 'old' you will have a spectator system like in 1.7 version, your spectator will be in CREATIVE mode
+# If not enabled your spectator will be in SPECTATOR mode (need 1.8+ version to work)
+Spectator:
+  enabled: true
+  maxDistance: 50
+  permission: 'none'
+  onlySpecTeammates: false
+  old: false
+
+########## CHAT SETTINGS ##############
+
+# Enable chat formatting or not
+chatformatting: true
+
+########## MYSQL SETTINGS ##############
+
+mysqlEnabled: false
+mysqlHost: 'localhost'
+mysqlPort: 3306
+mysqlDatabase: 'Game'
+mysqlUsername: 'Game'
+mysqlPassword: 'Game'
+mysqlStatTable: 'GameStat'
+
+########## ITEMS SETTINGS ##############
+
+HubItem:
+  name: '&3Return to hub'
+  id: 355
+  data: 0
+  slot: 0
+
+# Your done Now just leave a 5 star review, and report any bugs
+Left5StarReview: false

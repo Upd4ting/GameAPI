@@ -1,0 +1,75 @@
+#
+#  ________                         _____ __________.___
+# /  _____/_____    _____   ____   /  _  \\______   \   |
+#/   \  ___\__  \  /     \_/ __ \ /  /_\  \|     ___/   |
+#\    \_\  \/ __ \|  Y Y  \  ___//    |    \    |   |   |
+# \______  (____  /__|_|  /\___  >____|__  /____|   |___|
+#        \/     \/      \/     \/        \/
+#
+#                Developed By Upd4ting
+#                   Version: 1.0
+#                  configlang.yml
+
+name:
+  lobby: '&bLobby'
+  minPlayerToStart: '&bMinimum player'
+  maxPlayers: '&bMaximum player'
+  timeToStart: '&bTime to start'
+  timeToStartFull: '&bTime to start when full'
+  chatFormatting: '&bChat formatting'
+  fireworkEnabled: '&bFirework'
+  rejoinEnabled: '&bRejoin'
+  timeToRejoin: '&bTime to rejoin'
+  maxRejoin: '&bMax rejoin'
+  timeToClose: '&bTime to close'
+  spectatorJoin: '&bSpectator Join'
+  spectator: '&bSpectator'
+  spectatorOnlyMate: '&bSpectator Only Mate'
+  spectatorDistance: '&bSpectator distance'
+
+description:
+  lobby:
+    - 'Define the lobby of'
+    - 'the game.'
+  minPlayerToStart:
+    - 'Define the min player'
+    - 'to start.'
+  maxPlayers:
+    - 'Define the max player.'
+  timeToStart:
+    - 'Define the time to'
+    - 'start the game.'
+  timeToStartFull:
+    - 'Define the time to'
+    - 'start the game when'
+    - 'the game is full.'
+  chatFormatting:
+    - 'Enable or disable chat'
+    - 'formatting.'
+  fireworkEnabled:
+    - 'Enable or disable firework.'
+  rejoinEnabled:
+    - 'Enable or disable rejoin.'
+  timeToRejoin:
+    - 'Define the time the player'
+    - 'got to rejoin the game.'
+  maxRejoin:
+    - 'Define the maximum time'
+    - 'a player can rejoin.'
+  timeToClose:
+    - 'Define the time to'
+    - 'close the game at end.'
+  spectatorJoin:
+    - 'Enable or disable'
+    - 'spectator join feature !'
+    - '(Player can join the game as'
+    - 'a spectator)'
+  spectator:
+    - 'Enable or disable'
+    - 'spectator feature'
+  spectatorOnlyMate:
+    - 'Enable or disable spectator'
+    - 'can only see their mates.'
+  spectatorDistance:
+    - 'The maximum distance that a spectator'
+    - 'can be of his mates.'

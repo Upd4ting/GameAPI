@@ -1,0 +1,73 @@
+#
+#  ________                         _____ __________.___ 
+# /  _____/_____    _____   ____   /  _  \\______   \   |
+#/   \  ___\__  \  /     \_/ __ \ /  /_\  \|     ___/   |
+#\    \_\  \/ __ \|  Y Y  \  ___//    |    \    |   |   |
+# \______  (____  /__|_|  /\___  >____|__  /____|   |___|
+#        \/     \/      \/     \/        \/              
+#                                                         
+#                Developed By Upd4ting                   
+#                   Version: 1.0                     
+#                     lang.yml
+
+joinNotReady: '&4Game initialization is not finished!'
+joinFull: '&4The game is full!'
+joinIngame: '&4The game is already running!'
+joinFinish: '&4The game is finished!'
+joinMessage: '&b%player% &3joined the game!'
+leaveMessage: '&b%player% &3left the game!'
+prefix: '&3[Game] '
+teamCommandPrefix: '&3[Team] '
+teamCommandHelp:
+  - '&6&m--------------------'
+  - '&3/team <name>: &7Invite a player / Accept an invitation.'
+  - '&3/team leave: &7Leave your team.'
+  - '&6&m--------------------'
+teamCommandErrorGuiEnabled: '&4You need to go through the team GUI.'
+teamCommandErrorIngame: '&4The game is running, /team is disabled!'
+teamCommandErrorNotInTeam: '&4You are not in a team!'
+teamCommandJoin: '&b%player% &3has joined the team!'
+teamCommandLeave: '&b%player% &3has left the team!'
+teamCommandNewOwner: '&b%player% &3is now the new owner of the team.'
+teamCommandErrorNotOnline: '&b%player% &3is not online.'
+teamCommandErrorNotOwner: '&4You are not the owner of the team.'
+teamCommandErrorAlreadyInTeam: '&b%player% &3is already in a team.'
+teamCommandErrorAlreadyInvited: '&3You already invited &b%player%'
+teamCommandErrorTeamFull: '&4The team is full!'
+teamCommandReceiveInvitation: '&3You received an invitation from &b%player%. &3This invitation expire in &4%expiretime% &3seconds.'
+teamCommandSendInvitation: '&3You sent an invitation to &b%player%. &3This invitation expire in &4%expiretime% &3seconds.'
+chatPrefixSpectator: '&3[Spectator]'
+chatPrefixAll: '&3[All]'
+chatPrefixTeam: '&3[Team]'
+chatPrefixGlobalMessage: '&3[Global]'
+chatFormat: '%prefix% %prefixteam% &b%name%: &3%message%'
+teamInventoryName: '&bTeam'
+gameConfigInventoryName: '&bGame configuration'
+gameCommandError: '&4You are not in a game.'
+countdownErrorNotEnoughPlayer: '&4There is not enough player to start the game.'
+gameTimeStart: '&3The game start in &b%second%&3s'
+gameNotConfigured: '&4The game isn''t configured'
+itemReturnName: '&bReturn'
+signFormat:
+  - '%prefix%'
+  - '&6%gamename%'
+  - '&3%nbplayer%&7/&3%maxplayer%'
+  - '&3%motd%'
+statCommandError: '&b%player% &3is not online.'
+statMessage:
+  - '&6&m--------------------'
+  - "&b%player%&3's stats."
+  - '&3Death: &b%death%'
+  - '&3Kill: &b%kill%'
+  - '&3Game kill: &b%gamekill%'
+  - '&3Win: &b%win%'
+  - '&3Game lost: &b%gamelose%'
+  - '&3Game played: &b%gameplayed%'
+  - '&6&m--------------------'
+gameStart: '&3The game has started!'
+gameWin: '&b%team% &3has won!'
+leaderboardHeader: '&6&m------------ &3Leaderboards &6&m------------'
+spectatorTp: '&3You have been teleported to the nearest teammates.'
+motdWaiting: '&3Waiting players...'
+motdIngame: '&3Game started.'
+motdFinish: '&3Game finished.'
